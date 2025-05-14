@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Onest&family=Playpen+Sans&display=swap');
+/* All *:*/
+
+body {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background: rgb(41, 44, 250);
+	background-repeat: repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+    color: white;    
+    font-family: 'Onest', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 25px;
+}
+
+/* Center */
+
+.center {
+
+    align-items: center;
+    justify-content: center; 
+    width: 900px;
+}
+.center_text {
+  
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+/* 	Buttons with my contacts */
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    transform: skewX(-30deg);
+    background: linear-gradient(to left,#fff 50%, #fff 50);
+    background-size: 210%;
+    transition: .4s;
+}
+
+.nav-link1 {
+    transform: skew(30deg);
+    color: white;
+    font-size: 50px;
+    transition: .4s;
+}
+.nav-link2 {
+    transform: skew(30deg);
+    color: white;
+    font-size: 50px;
+    transition: .4s;
+}.nav-link3 {
+    transform: skew(30deg);
+    color: white;
+    font-size: 50px;
+    transition: .4s;
+}.nav-link4 {
+    transform: skew(30deg);
+    color: white;
+    font-size: 50px;
+    transition: .4s;
+}
+
+.nav-item:hover {
+background-position: 100%;
+}
+
+.nav-item:hover .nav-link1 {
+    color: red;
+    font-size: 64px;
+}
+.nav-item:hover .nav-link2 {
+    color: red;
+    font-size: 64px;
+}.nav-item:hover .nav-link3 {
+    color: red;
+    font-size: 64px;
+}.nav-item:hover .nav-link4 {
+    color: red;
+    font-size: 64px;
+}
+
+/* Header  */
+
+.header {
+    background: none;
+}
+.header_text {
+    color: white;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 25px;
+    font-family: 'Nova Square', sans-serif;
+}
