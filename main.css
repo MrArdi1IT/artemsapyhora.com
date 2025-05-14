@@ -1,0 +1,207 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+/* All */
+
+body {
+    background: rgb(41, 44, 250);
+	/* background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(my.png);  */
+	background-repeat: repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+}
+
+/* Header  */
+
+.header {
+    background: black;
+	position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.header_text {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+	align-items: center;
+    font-size: 25px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+/*
+.light .header_text , .header , .role , .name , .end , .end_text , .end_texts {
+    color: black;
+    background: white;
+}
+
+.light button {
+    color: black;
+	background: white;
+    box-shadow: 0 0 0 4px black;
+}
+
+.light button:hover {
+    color: white;
+	background: black;
+}
+
+.light a {
+    color: black;
+}
+
+.light body {
+    background: linear-gradient(rgba(190, 190, 190, 0.6),rgba(184, 184, 184, 0.6)), url(R.jpg);
+} */
+
+/* Center  */
+
+.center {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 70vh;
+    font-family: 'Playpen Sans', cursive;
+}
+.center_text {
+    color: white;
+    width: 40%;
+    display: block;
+    top: 50vh;
+    left: 40vh;
+    display: block;
+} 
+.name {
+    font-size: 70px;
+    margin: 0;
+}
+.role {
+    font-size: 40px;
+    margin: 0;
+    display: flex;
+}
+
+/* End  */
+
+/* .end {
+
+} */
+.end_text {
+    color: white;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 28px;
+    margin: 12px;
+}
+
+
+
+/* Button "More information" */
+
+.btn_more {
+	border: none;
+    background: black;
+    color: white;
+	width: 300px;
+	height: 80px;
+	border-radius: 10px;
+	font-weight: bold;
+	margin-top: 27px;
+	transition: .4s;
+	outline: none;
+    box-shadow: 0 0 0 4px white;
+}
+
+.btn_more:hover {
+    cursor: pointer;
+    color: black;
+	background: white;
+    box-shadow: 0 0 0 4px black;
+}
+
+.btn_text {
+    font-size: 30px;
+}
+
+/* 	Buttons with my contacts */
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    transform: skewX(-30deg);
+    background: linear-gradient(to left,#fff 50%, #fff 50);
+    background-size: 210%;
+    transition: .4s;
+}
+
+.nav-link1 {
+    transform: skew(30deg);
+    color: white;
+    font-size: 50px;
+    transition: .4s;
+}
+.nav-link2 {
+    transform: skew(30deg);
+    color: white;
+    font-size: 50px;
+    transition: .4s;
+}.nav-link3 {
+    transform: skew(30deg);
+    color: white;
+    font-size: 50px;
+    transition: .4s;
+}.nav-link4 {
+    transform: skew(30deg);
+    color: white;
+    font-size: 50px;
+    transition: .4s;
+}
+
+.nav-item:hover {
+background-position: 100%;
+}
+
+.nav-item:hover .nav-link1 {
+    color: red;
+    font-size: 64px;
+}
+.nav-item:hover .nav-link2 {
+    color: red;
+    font-size: 64px;
+}.nav-item:hover .nav-link3 {
+    color: red;
+    font-size: 64px;
+}.nav-item:hover .nav-link4 {
+    color: #00BFFF;
+    font-size: 64px;
+    border-color: red;
+}
+
+.bi {
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* sun moon */
+
